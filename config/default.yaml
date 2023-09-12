@@ -1,0 +1,29 @@
+ 
+EVAL_CHECKPOINT:  '/data/sunch/output/models/resnet18-5c106cde.pth'
+MODEL:
+    NAME: 'resnet18'
+    outpooling:  "avg"
+    IN_CHANNELS: 3 
+DATA: 
+    just_test: False
+    BATCH_SIZE: 64
+    TEST_BATCH_SIZE: 64
+    mb_sample:  300
+    NUM_WORKERS: 0
+    TRAIN_BALANCE: False
+    binary_classification_suimu: False
+    MODALITY: ['T1_Ax','T1_E_Ax','T2_Ax']
+    DIR: '/data/sd0809/TianTanData/data_brain_disalign_3mod.hdf5' #_old
+  
+TRAIN:
+    DECAY_EPOCHS_LIST: []
+    OPTIM:   'adam'
+    WEIGHT_DECAY:  0.0001
+    DECAY_RATE: 0.2 
+    EPOCHS: 200  #BASE_LR: 0.0001
+    
+multi_classification: []
+
+
+
+#EVAL_CHECKPOINT: /home/Medical/tumor_recognition/output/modality4-T1E-seed5/model_best.pth.tar
