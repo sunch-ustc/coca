@@ -110,7 +110,7 @@ If your project involves training a model, provide instructions on how to do it.
    ```
 
 ## Testing  
-You can evaluate the trained model on either the internal test set or the external test set. We offer a pre-trained model available at 'models/model_best.pth.tar,' or you have the option to train a new model from scratch.
+You can evaluate the trained model on either the internal test set or the external test set. We offer a pre-trained model available at 'models/[model_best.pth.tar](https://rec.ustc.edu.cn/share/312cd3c0-5172-11ee-b610-1bf9c9ae3d99)', or you have the option to train a new model from scratch.
 
    ```python
    # test on the Internal test set
