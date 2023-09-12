@@ -1,11 +1,11 @@
 <!--
  * @Author             : ChenghaoSun (chsun@mail.ustc.edu.cn)
- * @Date               : 2022-01-03 09:27
+ * @Date               : 2023-09-12 09:27
  * @Last Modified By   : ZhenHuang (hz13@mail.ustc.edu.cn)
- * @Last Modified Date : 2022-01-03 19:27
+ * @Last Modified Date : 2023-09-12 19:27
  * @Description        : Details of tumor recognition settings
  * -------- 
- * Copyright (c) 2022 Multimedia Group USTC. 
+ * Copyright (c) 2023 Multimedia Group USTC. 
 --> 
 
 ```markdown
@@ -25,15 +25,15 @@ Within the Coca framework, the output predicted by DNNs is guided by two objecti
 - [About](#about)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Training the Model](#training-the-model)
-- [Contributing](#contributing)
-- [License](#license)
+- [Training](#Training)
+- [Dataset](#Dataset)
+- [Contact](#Contact)
 
 ---
 
 ## About
 
-Provide a brief introduction to your project. Explain what it does, its main objectives, and why it's relevant or interesting. You can also mention any key features or technologies used.
+This is the 
 
 ---
 
@@ -89,7 +89,7 @@ The method comprises two main steps: the instantiation of inconsistency and the 
 
 If your project involves training a model, provide instructions on how to do it. Include any relevant datasets, scripts, or parameters that need to be configured. For example:
 
-1. Download the dataset from [Dataset Link](https://example.com/dataset).  Download the ResNet18 from [Model](https://download.pytorch.org/models/resnet18-5c106cde.pth)
+1. Download the dataset from [Dataset Link](https://rec.ustc.edu.cn/share/ba101400-5170-11ee-ab3f-8d1ce76c4e33).  Download the ResNet18 from [Model](https://download.pytorch.org/models/resnet18-5c106cde.pth)
 
 2. Place the dataset files in the `data/` directory and  place the model files in the `model/` directory
 
@@ -132,7 +132,7 @@ You can evaluate the trained model on either the internal test set or the extern
                         Test                    "external"
    ```
 ---
-## Contributing
+## Dataset
 
 The dataset is collected through collaborations with several institutions：
 
@@ -149,13 +149,10 @@ The dataset is collected through collaborations with several institutions：
 6. Ping LIANG, Children's Hospital of Chongqing Medical University; 
 
 7. Xiaosheng HE,Xijing Hospital, Air Force Medical University;
-
+ 
 ---
 
-## License
+## Contact
 
-This project is licensed under the [License Name](LICENSE) - describe the license terms here.
-
----
-
-Feel free to customize this template to fit your project's specific needs. Adding sections like "References," "Acknowledgments," and "Contact" can also be helpful, depending on your project.
+Provided that you want to use our dataset, please contact us(chsun@mail.ustc.edu.cn).
+ 
