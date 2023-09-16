@@ -33,7 +33,7 @@ Within the Coca framework, the output predicted by DNNs is guided by two objecti
 
 ## About
 
-This is the 
+This project represents the implementation of paper submitted to KBS titled "Expert-Level Diagnosis of Pediatric Brain Tumors via Consistency Calibration."
 
 ---
 
@@ -42,7 +42,7 @@ This is the
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/sunch-ustc/your-repo.git
+   git clone https://github.com/sunch-ustc/coca.git
    ```
 
 2. Navigate to the project directory:
@@ -134,7 +134,7 @@ You can evaluate the trained model on either the internal test set or the extern
 ---
 ## Dataset
 
-The dataset is collected through collaborations with several institutions：
+The [Dataset](https://rec.ustc.edu.cn/share/ba101400-5170-11ee-ab3f-8d1ce76c4e33) is collected through collaborations with several institutions：
 
 1. Yunwei OU, Yongji TIAN,  Wei LIU, Chunde Li, Zhenyu MA,  Beijing Tiantan Hospital,  Capital Medical University;
 
