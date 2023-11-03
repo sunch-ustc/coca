@@ -1,14 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-'''
-Author             : Chenghao Sun (chsun@mail.ustc.edu.cn)
-Date               : 2021-12-21 16:45
-Last Modified By   : Chenghao Sun (chsun@mail.ustc.edu.cn)
-Last Modified Date : 2021-2-8 13:42
-Description        : Common used functions
--------- 
-Copyright (c) 2021 Multimedia Group USTC. 
-'''
+ 
 
 from __future__ import absolute_import
 import os
