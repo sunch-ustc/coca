@@ -1,14 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-'''
-Author             : Chenghao Sun (chsun@mail.ustc.edu.cn)
-Date               : 2021-2-8 13:42
-Last Modified By   : Chenghao Sun (chsun@mail.ustc.edu.cn)
-Last Modified Date : 2021-2-9 13:40
-Description        : Common used functions
--------- 
-Copyright (c) 2021 Multimedia Group USTC. 
-'''
+ 
 
 import imageio
 import os
