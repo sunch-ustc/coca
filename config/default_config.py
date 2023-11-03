@@ -1,14 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-'''
-Author             : ZhenHuang (hz13@mail.ustc.edu.cn)
-Date               : 2021-12-21 16:50
-Last Modified By   : ZhenHuang (hz13@mail.ustc.edu.cn)
-Last Modified Date : 2021-12-26 16:57
-Description        : Default Configurations
--------- 
-Copyright (c) 2021 Multimedia Group USTC. 
-'''
+ 
 from yacs.config import CfgNode
 from typing import Optional, Union, Callable, Dict, List, Tuple
 
