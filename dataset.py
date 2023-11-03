@@ -1,14 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-'''
-Author             : ZhenHuang (hz13@mail.ustc.edu.cn)
-Date               : 2021-12-20 22:26
-Last Modified By   : ZhenHuang (hz13@mail.ustc.edu.cn)
-Last Modified Date : 2021-12-26 18:04
-Description        : DataSet
--------- 
-Copyright (c) 2021 Multimedia Group USTC. 
-'''
+ 
 from operator import truediv 
 import logging
 import torch  
