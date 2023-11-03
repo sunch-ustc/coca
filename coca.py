@@ -1,15 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-'''
-Author             : ZhenHuang (hz13@mail.ustc.edu.cn)
-Date               : 2021-12-21 16:28
-Last Modified By   : ZhenHuang (hz13@mail.ustc.edu.cn)
-Last Modified Date : 2021-12-26 16:57
-Description        : Main training pipeline
--------- 
-Copyright (c) 2021 Multimedia Group USTC. 
-'''
-
+ 
 from __future__ import print_function, absolute_import
 from ast import Return
 import os
